@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce8fe1c54609afe3d7b4024c5b2f7ff0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ce8fe1c54609afe3d7b4024c5b2f7ff0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ce8fe1c54609afe3d7b4024c5b2f7ff0 = L.map(
+                "map_ce8fe1c54609afe3d7b4024c5b2f7ff0",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5512d4b9b64496cd969da97f2d8c307b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+            var marker_77cd084d76c78813c6d325de94758d47 = L.marker(
+                [28.5392, -81.3839],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_3c1311bcc293cbf028b55c8aecd5adbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6db1d7ef0f03094971a7497ff8ea5b92 = $(`<div id="html_6db1d7ef0f03094971a7497ff8ea5b92" style="width: 100.0%; height: 100.0%;">Royal Rumble 1990<br>Date: January 21, 1990<br>Location: Orlando Arena, Orlando, Florida<br>Overview: Hulk Hogan won the Royal Rumble match. Jim Duggan and Randy Savage had a notable feud.<br>Attendance: 20000<br>PPV Buy Rate: 3.0</div>`)[0];
+            popup_3c1311bcc293cbf028b55c8aecd5adbd.setContent(html_6db1d7ef0f03094971a7497ff8ea5b92);
+        
+
+        marker_77cd084d76c78813c6d325de94758d47.bindPopup(popup_3c1311bcc293cbf028b55c8aecd5adbd)
+        ;
+
+        
+    
+    
+            var marker_2a405a7d6692239987232f50f5c93fa9 = L.marker(
+                [43.6414, -79.3894],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_6bfad08d099d4d25298a09db72127019 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a9813685681cc8afa90d2bc650ad170 = $(`<div id="html_8a9813685681cc8afa90d2bc650ad170" style="width: 100.0%; height: 100.0%;">WrestleMania VI<br>Date: April 1, 1990<br>Location: SkyDome, Toronto, Ontario, Canada<br>Overview: The Ultimate Warrior defeated Hulk Hogan for the WWF Championship in the "Ultimate Challenge."<br>Attendance: 67678<br>PPV Buy Rate: 3.8</div>`)[0];
+            popup_6bfad08d099d4d25298a09db72127019.setContent(html_8a9813685681cc8afa90d2bc650ad170);
+        
+
+        marker_2a405a7d6692239987232f50f5c93fa9.bindPopup(popup_6bfad08d099d4d25298a09db72127019)
+        ;
+
+        
+    
+    
+            var marker_b74434bcdd2dbd5e0d1b0ccbe86ea1d0 = L.marker(
+                [39.9012, -75.172],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_b67efc2785bc1eadfe376f4fb01958d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0043a7b8b7eb54334b10547c555cea2e = $(`<div id="html_0043a7b8b7eb54334b10547c555cea2e" style="width: 100.0%; height: 100.0%;">SummerSlam 1990<br>Date: August 27, 1990<br>Location: Philadelphia Spectrum, Philadelphia, Pennsylvania<br>Overview: The Ultimate Warrior successfully defended the WWF Championship against Rick Rude in a steel cage match.<br>Attendance: 19304<br>PPV Buy Rate: 3.8</div>`)[0];
+            popup_b67efc2785bc1eadfe376f4fb01958d8.setContent(html_0043a7b8b7eb54334b10547c555cea2e);
+        
+
+        marker_b74434bcdd2dbd5e0d1b0ccbe86ea1d0.bindPopup(popup_b67efc2785bc1eadfe376f4fb01958d8)
+        ;
+
+        
+    
+    
+            var marker_303f003840c348e8103b0841a29db0cb = L.marker(
+                [41.7658, -72.6734],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_6dede93381a832d5aa3ef06408d696f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0dce70d36abf85b23e0e9f9afd824a9 = $(`<div id="html_c0dce70d36abf85b23e0e9f9afd824a9" style="width: 100.0%; height: 100.0%;">Survivor Series 1990<br>Date: November 22, 1990<br>Location: Hartford Civic Center, Hartford, Connecticut<br>Overview: The Undertaker made his WWF debut. The Ultimate Warrior's team defeated Ted DiBiase's team in the main event.<br>Attendance: 15000<br>PPV Buy Rate: 3.3</div>`)[0];
+            popup_6dede93381a832d5aa3ef06408d696f9.setContent(html_c0dce70d36abf85b23e0e9f9afd824a9);
+        
+
+        marker_303f003840c348e8103b0841a29db0cb.bindPopup(popup_6dede93381a832d5aa3ef06408d696f9)
+        ;
+
+        
+    
+    
+            var marker_243b4f0d9e1a4a1ff60e8b0276ac728a = L.marker(
+                [25.7814, -80.187],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_f3de5685d7f58361bdde293209fd689b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_190d2fc310fb97c57b6ba5abc647ea09 = $(`<div id="html_190d2fc310fb97c57b6ba5abc647ea09" style="width: 100.0%; height: 100.0%;">Royal Rumble 1991<br>Date: January 19, 1991<br>Location: Miami Arena, Miami, Florida<br>Overview: Hulk Hogan won the Royal Rumble match for the second consecutive year. Sgt. Slaughter defeated The Ultimate Warrior for the WWF Championship.<br>Attendance: 16000<br>PPV Buy Rate: 3.0</div>`)[0];
+            popup_f3de5685d7f58361bdde293209fd689b.setContent(html_190d2fc310fb97c57b6ba5abc647ea09);
+        
+
+        marker_243b4f0d9e1a4a1ff60e8b0276ac728a.bindPopup(popup_f3de5685d7f58361bdde293209fd689b)
+        ;
+
+        
+    
+    
+            var marker_87ed39a7cccae30de41c56256d20b6b2 = L.marker(
+                [34.0141, -118.2879],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_5fbff056a0887ddc107b8d9d1eb05d41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af7419aa484c6044ec0739a856f0735f = $(`<div id="html_af7419aa484c6044ec0739a856f0735f" style="width: 100.0%; height: 100.0%;">WrestleMania VII<br>Date: March 24, 1991<br>Location: Los Angeles Memorial Sports Arena, Los Angeles, California<br>Overview: Hulk Hogan defeated Sgt. Slaughter for the WWF Championship. The Undertaker began his WrestleMania streak by defeating Jimmy Snuka.<br>Attendance: 16158<br>PPV Buy Rate: 2.8</div>`)[0];
+            popup_5fbff056a0887ddc107b8d9d1eb05d41.setContent(html_af7419aa484c6044ec0739a856f0735f);
+        
+
+        marker_87ed39a7cccae30de41c56256d20b6b2.bindPopup(popup_5fbff056a0887ddc107b8d9d1eb05d41)
+        ;
+
+        
+    
+    
+            var marker_208d911cdabf9b769802a6ead3472a83 = L.marker(
+                [40.7505, -73.9934],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_5885165987e0d6cad221a45dab973b15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e07014c2ea52bacb83f20cfbb0271be8 = $(`<div id="html_e07014c2ea52bacb83f20cfbb0271be8" style="width: 100.0%; height: 100.0%;">SummerSlam 1991<br>Date: August 26, 1991<br>Location: Madison Square Garden, New York City, New York<br>Overview: Bret Hart defeated Mr. Perfect for the Intercontinental Championship. The Legion of Doom won the Tag Team Championship.<br>Attendance: 20000<br>PPV Buy Rate: 2.7</div>`)[0];
+            popup_5885165987e0d6cad221a45dab973b15.setContent(html_e07014c2ea52bacb83f20cfbb0271be8);
+        
+
+        marker_208d911cdabf9b769802a6ead3472a83.bindPopup(popup_5885165987e0d6cad221a45dab973b15)
+        ;
+
+        
+    
+    
+            var marker_80b2c75456dac6e35b6650f0a2a3652d = L.marker(
+                [42.3256, -83.0513],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_73bbc8ecc7eb9abfbe791e06d3fccc68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46a910a08aea0f7e1aa2f49e83d70519 = $(`<div id="html_46a910a08aea0f7e1aa2f49e83d70519" style="width: 100.0%; height: 100.0%;">Survivor Series 1991<br>Date: November 27, 1991<br>Location: Joe Louis Arena, Detroit, Michigan<br>Overview: The Undertaker defeated Hulk Hogan for the WWF Championship with Ric Flair's interference. This was Hogan's first pinfall loss in years.<br>Attendance: 17500<br>PPV Buy Rate: 1.8</div>`)[0];
+            popup_73bbc8ecc7eb9abfbe791e06d3fccc68.setContent(html_46a910a08aea0f7e1aa2f49e83d70519);
+        
+
+        marker_80b2c75456dac6e35b6650f0a2a3652d.bindPopup(popup_73bbc8ecc7eb9abfbe791e06d3fccc68)
+        ;
+
+        
+    
+    
+            var marker_11d38cc182b90545c96944d911ea4eae = L.marker(
+                [29.4169, -98.4789],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_fd2cefd7146e560b53e620d6ea53642e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddd0ab81b5f830d0858181ed1e837dad = $(`<div id="html_ddd0ab81b5f830d0858181ed1e837dad" style="width: 100.0%; height: 100.0%;">This Tuesday in Texas<br>Date: December 3, 1991<br>Location: Freeman Coliseum, San Antonio, Texas<br>Overview: Hulk Hogan regained the WWF Championship from The Undertaker. Randy Savage and Jake Roberts had a notable feud.<br>Attendance: 8000<br>PPV Buy Rate: 1.0</div>`)[0];
+            popup_fd2cefd7146e560b53e620d6ea53642e.setContent(html_ddd0ab81b5f830d0858181ed1e837dad);
+        
+
+        marker_11d38cc182b90545c96944d911ea4eae.bindPopup(popup_fd2cefd7146e560b53e620d6ea53642e)
+        ;
+
+        
+    
+    
+            var marker_4722332d96923aecb327e5fe6f2fff90 = L.marker(
+                [42.6526, -73.7562],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_632e452da5c9ad79d237aa91ccd096c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0f8ace3f9fe74ba88b49d6cabecae09 = $(`<div id="html_a0f8ace3f9fe74ba88b49d6cabecae09" style="width: 100.0%; height: 100.0%;">Royal Rumble 1992<br>Date: January 19, 1992<br>Location: Knickerbocker Arena, Albany, New York<br>Overview: Ric Flair won the Royal Rumble match and the vacant WWF Championship. This was considered one of the best Royal Rumble matches ever.<br>Attendance: 17000<br>PPV Buy Rate: 1.8</div>`)[0];
+            popup_632e452da5c9ad79d237aa91ccd096c9.setContent(html_a0f8ace3f9fe74ba88b49d6cabecae09);
+        
+
+        marker_4722332d96923aecb327e5fe6f2fff90.bindPopup(popup_632e452da5c9ad79d237aa91ccd096c9)
+        ;
+
+        
+    
+    
+            var marker_7803036cea403a49198df1744336278c = L.marker(
+                [28.5392, -81.3839],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_377540444e4103d85a0d269e52b5a386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e09a7867719ca8dfd36d45520bcc362c = $(`<div id="html_e09a7867719ca8dfd36d45520bcc362c" style="width: 100.0%; height: 100.0%;">Saturday Night's Main Event XXX<br>Date: February 8, 1992<br>Location: Orlando Arena, Orlando, Florida<br>Overview: Ric Flair defended the WWF Championship against Roddy Piper. The Undertaker faced Jake Roberts.<br>Attendance: 10000<br>PPV Buy Rate: N/A</div>`)[0];
+            popup_377540444e4103d85a0d269e52b5a386.setContent(html_e09a7867719ca8dfd36d45520bcc362c);
+        
+
+        marker_7803036cea403a49198df1744336278c.bindPopup(popup_377540444e4103d85a0d269e52b5a386)
+        ;
+
+        
+    
+    
+            var marker_9e84156e08e372797326b2351126fe29 = L.marker(
+                [39.764, -86.1628],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_cdc3c786d1bcf5c673c890f38ed8cfb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fa0f4711f4d26eb61b01a5384cc0fe0 = $(`<div id="html_5fa0f4711f4d26eb61b01a5384cc0fe0" style="width: 100.0%; height: 100.0%;">WrestleMania VIII<br>Date: April 5, 1992<br>Location: Hoosier Dome, Indianapolis, Indiana<br>Overview: Randy Savage defeated Ric Flair for the WWF Championship. Hulk Hogan vs. Sid Justice was the main event.<br>Attendance: 62167<br>PPV Buy Rate: 2.3</div>`)[0];
+            popup_cdc3c786d1bcf5c673c890f38ed8cfb4.setContent(html_5fa0f4711f4d26eb61b01a5384cc0fe0);
+        
+
+        marker_9e84156e08e372797326b2351126fe29.bindPopup(popup_cdc3c786d1bcf5c673c890f38ed8cfb4)
+        ;
+
+        
+    
+    
+            var marker_3388f1962aa0e5ce429adeabee1e68d3 = L.marker(
+                [51.556, -0.2796],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_fe1c9523a906c172f7083b3d7ea2a25f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_260c29176888de17e62cb35ad773ec7d = $(`<div id="html_260c29176888de17e62cb35ad773ec7d" style="width: 100.0%; height: 100.0%;">SummerSlam 1992<br>Date: August 29, 1992<br>Location: Wembley Stadium, London, England<br>Overview: The British Bulldog defeated Bret Hart for the Intercontinental Championship in the main event. This was the first major WWF pay-per-view held outside North America.<br>Attendance: 80355<br>PPV Buy Rate: 1.5</div>`)[0];
+            popup_fe1c9523a906c172f7083b3d7ea2a25f.setContent(html_260c29176888de17e62cb35ad773ec7d);
+        
+
+        marker_3388f1962aa0e5ce429adeabee1e68d3.bindPopup(popup_fe1c9523a906c172f7083b3d7ea2a25f)
+        ;
+
+        
+    
+    
+            var marker_cd8380b2fd958b786bcb94aecc6b1dbe = L.marker(
+                [41.2639, -81.6387],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_db9961a0686242a7e9c992443368e394 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_549451c95212ec010249aa1fe4a67889 = $(`<div id="html_549451c95212ec010249aa1fe4a67889" style="width: 100.0%; height: 100.0%;">Survivor Series 1992<br>Date: November 25, 1992<br>Location: Richfield Coliseum, Richfield, Ohio<br>Overview: Bret Hart defended the WWF Championship against Shawn Michaels. The debut of The Big Boss Man's "Nailz" character.<br>Attendance: 16000<br>PPV Buy Rate: 1.4</div>`)[0];
+            popup_db9961a0686242a7e9c992443368e394.setContent(html_549451c95212ec010249aa1fe4a67889);
+        
+
+        marker_cd8380b2fd958b786bcb94aecc6b1dbe.bindPopup(popup_db9961a0686242a7e9c992443368e394)
+        ;
+
+        
+    
+    
+            var marker_dcb86969be4b07b622d1593400fb9bed = L.marker(
+                [53.3997, -1.4125],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_6da26c15af83f59d80dc2dac3f8419c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa24fdbae4da9170eb8520c024fbd5c5 = $(`<div id="html_fa24fdbae4da9170eb8520c024fbd5c5" style="width: 100.0%; height: 100.0%;">UK Rampage 1992<br>Date: April 19, 1992<br>Location: Sheffield Arena, Sheffield, England<br>Overview: Randy Savage defended the WWF Championship against Shawn Michaels. The British Bulldog faced IRS in a notable match.<br>Attendance: 12000<br>PPV Buy Rate: N/A (UK-only event)</div>`)[0];
+            popup_6da26c15af83f59d80dc2dac3f8419c4.setContent(html_fa24fdbae4da9170eb8520c024fbd5c5);
+        
+
+        marker_dcb86969be4b07b622d1593400fb9bed.bindPopup(popup_6da26c15af83f59d80dc2dac3f8419c4)
+        ;
+
+        
+    
+    
+            var marker_0caa7c5cbc05606be4f6531755fde033 = L.marker(
+                [41.2587, -95.9378],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_6ed44568eaee702e4f550859b95c78a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b27dbe910ddc5b368f8b4d741f5127d = $(`<div id="html_9b27dbe910ddc5b368f8b4d741f5127d" style="width: 100.0%; height: 100.0%;">Saturday Night's Main Event XXXI<br>Date: April 27, 1992<br>Location: Omaha Civic Auditorium, Omaha, Nebraska<br>Overview: Randy Savage defended the WWF Championship against Ric Flair. The Undertaker faced Jake Roberts in a notable match.<br>Attendance: 9000<br>PPV Buy Rate: N/A</div>`)[0];
+            popup_6ed44568eaee702e4f550859b95c78a3.setContent(html_9b27dbe910ddc5b368f8b4d741f5127d);
+        
+
+        marker_0caa7c5cbc05606be4f6531755fde033.bindPopup(popup_6ed44568eaee702e4f550859b95c78a3)
+        ;
+
+        
+    
+    
+            var marker_ebe2a9825079dfadbc9a627f45e374c9 = L.marker(
+                [45.5321, -122.6668],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_d01ac99ed1362a7e11aa7ab8e5cf4fb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_801910ddaf45e9ff5d32a77e5d256931 = $(`<div id="html_801910ddaf45e9ff5d32a77e5d256931" style="width: 100.0%; height: 100.0%;">Saturday Night's Main Event XXXII<br>Date: May 17, 1992<br>Location: Memorial Coliseum, Portland, Oregon<br>Overview: Randy Savage defended the WWF Championship against Yokozuna. Bret Hart faced Shawn Michaels in a preview of their future rivalry.<br>Attendance: 12000<br>PPV Buy Rate: N/A</div>`)[0];
+            popup_d01ac99ed1362a7e11aa7ab8e5cf4fb8.setContent(html_801910ddaf45e9ff5d32a77e5d256931);
+        
+
+        marker_ebe2a9825079dfadbc9a627f45e374c9.bindPopup(popup_d01ac99ed1362a7e11aa7ab8e5cf4fb8)
+        ;
+
+        
+    
+    
+            var marker_9d10bae95be19364e43bf4972ab773e3 = L.marker(
+                [52.4792, -1.9144],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_80938171a1f026702a7972faabc1604a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_068749afd5a3e8eff8204cd0a25b6661 = $(`<div id="html_068749afd5a3e8eff8204cd0a25b6661" style="width: 100.0%; height: 100.0%;">Capital Carnage<br>Date: December 6, 1992<br>Location: National Indoor Arena, Birmingham, England<br>Overview: Bret Hart defended the WWF Championship against The British Bulldog. Shawn Michaels faced Mr. Perfect in a notable match.<br>Attendance: 11000<br>PPV Buy Rate: N/A (UK-only event)</div>`)[0];
+            popup_80938171a1f026702a7972faabc1604a.setContent(html_068749afd5a3e8eff8204cd0a25b6661);
+        
+
+        marker_9d10bae95be19364e43bf4972ab773e3.bindPopup(popup_80938171a1f026702a7972faabc1604a)
+        ;
+
+        
+    
+    
+            var marker_9e5aa16f6bfab6be3dacf1777b2a3dd7 = L.marker(
+                [29.4169, -98.4789],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_6f903321c0813bf2977e523c5a4a65b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2fea92b876941091800f0cebef64000 = $(`<div id="html_d2fea92b876941091800f0cebef64000" style="width: 100.0%; height: 100.0%;">Tuesday in Texas<br>Date: December 8, 1992<br>Location: Freeman Coliseum, San Antonio, Texas<br>Overview: Bret Hart defended the WWF Championship against Razor Ramon. The Undertaker faced Yokozuna in a notable match.<br>Attendance: 8000<br>PPV Buy Rate: 1.0</div>`)[0];
+            popup_6f903321c0813bf2977e523c5a4a65b2.setContent(html_d2fea92b876941091800f0cebef64000);
+        
+
+        marker_9e5aa16f6bfab6be3dacf1777b2a3dd7.bindPopup(popup_6f903321c0813bf2977e523c5a4a65b2)
+        ;
+
+        
+    
+    
+            var marker_3a83414f72de1febdf47238eef1f03db = L.marker(
+                [33.7573, -84.3963],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_d174d9aec1d72746200275fe77510df7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55049f1239d8f1eefd8f0cb3ce9cdbd1 = $(`<div id="html_55049f1239d8f1eefd8f0cb3ce9cdbd1" style="width: 100.0%; height: 100.0%;">Clash of the Champions XVIII<br>Date: January 21, 1992<br>Location: Omni Coliseum, Atlanta, Georgia<br>Overview: Sting defended the WCW World Heavyweight Championship against Lex Luger. The Steiners faced Arn Anderson and Bobby Eaton in a tag team match.<br>Attendance: 5000<br>PPV Buy Rate: N/A</div>`)[0];
+            popup_d174d9aec1d72746200275fe77510df7.setContent(html_55049f1239d8f1eefd8f0cb3ce9cdbd1);
+        
+
+        marker_3a83414f72de1febdf47238eef1f03db.bindPopup(popup_d174d9aec1d72746200275fe77510df7)
+        ;
+
+        
+    
+    
+            var marker_fc6a3a47f4964d78c99195960e36622c = L.marker(
+                [38.3498, -81.6326],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_8902c6610ac0bc04b72f03c8d375bde1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6847b4b99206c53650569f00b7a79a19 = $(`<div id="html_6847b4b99206c53650569f00b7a79a19" style="width: 100.0%; height: 100.0%;">Clash of the Champions XIX<br>Date: June 16, 1992<br>Location: Charleston Civic Center, Charleston, West Virginia<br>Overview: Sting and Nikita Koloff faced The Steiner Brothers in the main event. Rick Rude defended the U.S. Championship against Ricky Steamboat.<br>Attendance: 4000<br>PPV Buy Rate: N/A</div>`)[0];
+            popup_8902c6610ac0bc04b72f03c8d375bde1.setContent(html_6847b4b99206c53650569f00b7a79a19);
+        
+
+        marker_fc6a3a47f4964d78c99195960e36622c.bindPopup(popup_8902c6610ac0bc04b72f03c8d375bde1)
+        ;
+
+        
+    
+    
+            var marker_6125a57a3a2df9f7053c6eadd1015e48 = L.marker(
+                [30.6898, -88.0433],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_5e94b8339e8fc14f71bc08ca9cadce61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2864f4ff0672110e441959add99f665e = $(`<div id="html_2864f4ff0672110e441959add99f665e" style="width: 100.0%; height: 100.0%;">Beach Blast 1992<br>Date: June 20, 1992<br>Location: Mobile Civic Center, Mobile, Alabama<br>Overview: Sting defended the WCW World Heavyweight Championship against Cactus Jack. Rick Rude faced Ricky Steamboat in an Iron Man Challenge match.<br>Attendance: 5500<br>PPV Buy Rate: 0.5</div>`)[0];
+            popup_5e94b8339e8fc14f71bc08ca9cadce61.setContent(html_2864f4ff0672110e441959add99f665e);
+        
+
+        marker_6125a57a3a2df9f7053c6eadd1015e48.bindPopup(popup_5e94b8339e8fc14f71bc08ca9cadce61)
+        ;
+
+        
+    
+    
+            var marker_05672ff04463de7dfca18727f0f1d3da = L.marker(
+                [31.5785, -84.1557],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_57a79e64e6aa34e8d20d0d7b2e724e41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a32542756e4c0780d93055f12aeba72 = $(`<div id="html_2a32542756e4c0780d93055f12aeba72" style="width: 100.0%; height: 100.0%;">The Great American Bash 1992<br>Date: July 12, 1992<br>Location: Albany Civic Center, Albany, Georgia<br>Overview: Sting successfully defended the WCW World Heavyweight Championship against Big Van Vader. The Steiner Brothers faced Terry Gordy and Steve Williams for the WCW World Tag Team Championship.<br>Attendance: 6000<br>PPV Buy Rate: 0.7</div>`)[0];
+            popup_57a79e64e6aa34e8d20d0d7b2e724e41.setContent(html_2a32542756e4c0780d93055f12aeba72);
+        
+
+        marker_05672ff04463de7dfca18727f0f1d3da.bindPopup(popup_57a79e64e6aa34e8d20d0d7b2e724e41)
+        ;
+
+        
+    
+    
+            var marker_7bab3edce0477cb193d12d03b281a185 = L.marker(
+                [39.9483, -75.1712],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_9cb260bf879b05a5b5482c6acd9346dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2be160a9e81b7f56eca3ad3b7ecc8cd = $(`<div id="html_e2be160a9e81b7f56eca3ad3b7ecc8cd" style="width: 100.0%; height: 100.0%;">Halloween Havoc 1992<br>Date: October 25, 1992<br>Location: Philadelphia Civic Center, Philadelphia, Pennsylvania<br>Overview: Ron Simmons defended the WCW World Heavyweight Championship against The Barbarian. Sting and Jake Roberts faced Cactus Jack and The Barbarian in a "Spin the Wheel, Make the Deal" match.<br>Attendance: 7500<br>PPV Buy Rate: 0.8</div>`)[0];
+            popup_9cb260bf879b05a5b5482c6acd9346dd.setContent(html_e2be160a9e81b7f56eca3ad3b7ecc8cd);
+        
+
+        marker_7bab3edce0477cb193d12d03b281a185.bindPopup(popup_9cb260bf879b05a5b5482c6acd9346dd)
+        ;
+
+        
+    
+    
+            var marker_ef0f4b0829b18f0b243adee9804543d7 = L.marker(
+                [33.7573, -84.3963],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_059d3bc36f8d43210403333f46a3c127 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f8c04c42da0c91f1f3befc5a9a7c833 = $(`<div id="html_7f8c04c42da0c91f1f3befc5a9a7c833" style="width: 100.0%; height: 100.0%;">Starrcade 1992<br>Date: December 28, 1992<br>Location: The Omni, Atlanta, Georgia<br>Overview: Big Van Vader defeated Ron Simmons for the WCW World Heavyweight Championship. Sting and Steve Williams vs. Rick Rude and Paul Orndorff in a "Lethal Lottery" tag team tournament final.<br>Attendance: 8000<br>PPV Buy Rate: 1.2</div>`)[0];
+            popup_059d3bc36f8d43210403333f46a3c127.setContent(html_7f8c04c42da0c91f1f3befc5a9a7c833);
+        
+
+        marker_ef0f4b0829b18f0b243adee9804543d7.bindPopup(popup_059d3bc36f8d43210403333f46a3c127)
+        ;
+
+        
+    
+    
+            var marker_f0629e6ad1ac3a6957673ab34a33d2dc = L.marker(
+                [38.6492, -121.5181],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_c3f4cdf5c682a54a5cc1c3424504bde4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f6a75b9aa3fa83e004dd5270e97071a = $(`<div id="html_4f6a75b9aa3fa83e004dd5270e97071a" style="width: 100.0%; height: 100.0%;">Royal Rumble 1993<br>Date: January 24, 1993<br>Location: ARCO Arena, Sacramento, California<br>Overview: Yokozuna won the Royal Rumble match. Bret Hart successfully defended the WWF Championship against Razor Ramon.<br>Attendance: 16000<br>PPV Buy Rate: 1.25</div>`)[0];
+            popup_c3f4cdf5c682a54a5cc1c3424504bde4.setContent(html_4f6a75b9aa3fa83e004dd5270e97071a);
+        
+
+        marker_f0629e6ad1ac3a6957673ab34a33d2dc.bindPopup(popup_c3f4cdf5c682a54a5cc1c3424504bde4)
+        ;
+
+        
+    
+    
+            var marker_fb92640847ab56bf936460e40a35e36e = L.marker(
+                [36.1162, -115.1745],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_b9db4d34a7e49f29530874bfe02a97e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_744e836b36079377a5c7b52d2d740e61 = $(`<div id="html_744e836b36079377a5c7b52d2d740e61" style="width: 100.0%; height: 100.0%;">WrestleMania IX<br>Date: April 4, 1993<br>Location: Caesars Palace, Las Vegas, Nevada<br>Overview: Yokozuna defeated Bret Hart for the WWF Championship, only to lose it minutes later to Hulk Hogan in an impromptu match.<br>Attendance: 16891<br>PPV Buy Rate: 2.0</div>`)[0];
+            popup_b9db4d34a7e49f29530874bfe02a97e2.setContent(html_744e836b36079377a5c7b52d2d740e61);
+        
+
+        marker_fb92640847ab56bf936460e40a35e36e.bindPopup(popup_b9db4d34a7e49f29530874bfe02a97e2)
+        ;
+
+        
+    
+    
+            var marker_9100836357b0c47b92fe19be5f707c98 = L.marker(
+                [39.7803, -84.0567],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_e2ff8b0a9fdba595f76e467859155901 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3fbea409b71dceffee4e66ca8b2d253 = $(`<div id="html_f3fbea409b71dceffee4e66ca8b2d253" style="width: 100.0%; height: 100.0%;">King of the Ring 1993<br>Date: June 13, 1993<br>Location: Nutter Center, Dayton, Ohio<br>Overview: Bret Hart won the King of the Ring tournament. Hulk Hogan lost the WWF Championship to Yokozuna.<br>Attendance: 6500<br>PPV Buy Rate: 1.0</div>`)[0];
+            popup_e2ff8b0a9fdba595f76e467859155901.setContent(html_f3fbea409b71dceffee4e66ca8b2d253);
+        
+
+        marker_9100836357b0c47b92fe19be5f707c98.bindPopup(popup_e2ff8b0a9fdba595f76e467859155901)
+        ;
+
+        
+    
+    
+            var marker_225bfd503da0184668ef85276d7ad40a = L.marker(
+                [42.6968, -83.2456],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_ca1c7fa766c90d68d03a804fef5af7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bd8ea4fe082ea023a054765c38e9428 = $(`<div id="html_7bd8ea4fe082ea023a054765c38e9428" style="width: 100.0%; height: 100.0%;">SummerSlam 1993<br>Date: August 30, 1993<br>Location: The Palace of Auburn Hills, Auburn Hills, Michigan<br>Overview: Lex Luger defeated Yokozuna by countout in the main event. The Undertaker defeated Giant Gonzalez in a Rest in Peace match.<br>Attendance: 23954<br>PPV Buy Rate: 1.6</div>`)[0];
+            popup_ca1c7fa766c90d68d03a804fef5af7a4.setContent(html_7bd8ea4fe082ea023a054765c38e9428);
+        
+
+        marker_225bfd503da0184668ef85276d7ad40a.bindPopup(popup_ca1c7fa766c90d68d03a804fef5af7a4)
+        ;
+
+        
+    
+    
+            var marker_22ab317bb883b1c0cf501b0af42cc8b4 = L.marker(
+                [42.3662, -71.0621],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_25457bc2e75696dd53890b85f649268e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d94ef265862443afdcd4220604517e7e = $(`<div id="html_d94ef265862443afdcd4220604517e7e" style="width: 100.0%; height: 100.0%;">Survivor Series 1993<br>Date: November 24, 1993<br>Location: Boston Garden, Boston, Massachusetts<br>Overview: The All-Americans (Lex Luger, The Undertaker, Rick Steiner, and Scott Steiner) defeated The Foreign Fanatics (Yokozuna, Crush, Ludvig Borga, and Quebecer Jacques) in the main event.<br>Attendance: 15509<br>PPV Buy Rate: 0.82</div>`)[0];
+            popup_25457bc2e75696dd53890b85f649268e.setContent(html_d94ef265862443afdcd4220604517e7e);
+        
+
+        marker_22ab317bb883b1c0cf501b0af42cc8b4.bindPopup(popup_25457bc2e75696dd53890b85f649268e)
+        ;
+
+        
+    
+    
+            var marker_faa5ced671710afcb804ba8bfc470211 = L.marker(
+                [41.824, -71.4128],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_8d7cb0fc2716a3bad07e4560c3fb7adb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b88845a2b8201cfae138c3adbc48e03 = $(`<div id="html_2b88845a2b8201cfae138c3adbc48e03" style="width: 100.0%; height: 100.0%;">Royal Rumble 1994<br>Date: January 22, 1994<br>Location: Providence Civic Center, Providence, Rhode Island<br>Overview: Lex Luger and Bret Hart were declared co-winners of the Royal Rumble match after simultaneously eliminating each other.<br>Attendance: 14500<br>PPV Buy Rate: 1.1</div>`)[0];
+            popup_8d7cb0fc2716a3bad07e4560c3fb7adb.setContent(html_2b88845a2b8201cfae138c3adbc48e03);
+        
+
+        marker_faa5ced671710afcb804ba8bfc470211.bindPopup(popup_8d7cb0fc2716a3bad07e4560c3fb7adb)
+        ;
+
+        
+    
+    
+            var marker_6528a283722d563d315a210f3c2b7f4e = L.marker(
+                [40.7505, -73.9934],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_76b8afef4162613326ea607e26f76590 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8a17ebed4a6cb66a50aedc19c5a824e = $(`<div id="html_c8a17ebed4a6cb66a50aedc19c5a824e" style="width: 100.0%; height: 100.0%;">WrestleMania X<br>Date: March 20, 1994<br>Location: Madison Square Garden, New York City, New York<br>Overview: Bret Hart defeated Yokozuna for the WWF Championship. Shawn Michaels and Razor Ramon had a legendary Ladder match for the Intercontinental Championship.<br>Attendance: 18065<br>PPV Buy Rate: 1.68</div>`)[0];
+            popup_76b8afef4162613326ea607e26f76590.setContent(html_c8a17ebed4a6cb66a50aedc19c5a824e);
+        
+
+        marker_6528a283722d563d315a210f3c2b7f4e.bindPopup(popup_76b8afef4162613326ea607e26f76590)
+        ;
+
+        
+    
+    
+            var marker_25cea9620071922e8b59dee97b1c1c5d = L.marker(
+                [39.2856, -76.6178],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_13af9ad4a4ea61c65c1701a0813559e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1517855a17e9df356c427e905fa250da = $(`<div id="html_1517855a17e9df356c427e905fa250da" style="width: 100.0%; height: 100.0%;">King of the Ring 1994<br>Date: June 19, 1994<br>Location: Baltimore Arena, Baltimore, Maryland<br>Overview: Owen Hart won the King of the Ring tournament. Roddy Piper defeated Jerry Lawler in a notable match.<br>Attendance: 12000<br>PPV Buy Rate: 0.7</div>`)[0];
+            popup_13af9ad4a4ea61c65c1701a0813559e0.setContent(html_1517855a17e9df356c427e905fa250da);
+        
+
+        marker_25cea9620071922e8b59dee97b1c1c5d.bindPopup(popup_13af9ad4a4ea61c65c1701a0813559e0)
+        ;
+
+        
+    
+    
+            var marker_763a27a68a7796c45c1c0b6d503a45de = L.marker(
+                [41.8807, -87.6742],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_3491e825f4aa7b99e693c6a8f38db731 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07ae262979493707c32edfb05e6d48ec = $(`<div id="html_07ae262979493707c32edfb05e6d48ec" style="width: 100.0%; height: 100.0%;">SummerSlam 1994<br>Date: August 29, 1994<br>Location: United Center, Chicago, Illinois<br>Overview: Undertaker defeated Undertaker in a notable match featuring two Undertakers. Bret Hart defeated Owen Hart in a Steel Cage match for the WWF Championship.<br>Attendance: 23000<br>PPV Buy Rate: 1.3</div>`)[0];
+            popup_3491e825f4aa7b99e693c6a8f38db731.setContent(html_07ae262979493707c32edfb05e6d48ec);
+        
+
+        marker_763a27a68a7796c45c1c0b6d503a45de.bindPopup(popup_3491e825f4aa7b99e693c6a8f38db731)
+        ;
+
+        
+    
+    
+            var marker_12c5e2624006d8617a898c1e401acc12 = L.marker(
+                [29.4169, -98.4789],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_04a038660f796a19c47e2ca88daf6775 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af71b8a3af2e741dadf348d1d3039446 = $(`<div id="html_af71b8a3af2e741dadf348d1d3039446" style="width: 100.0%; height: 100.0%;">Survivor Series 1994<br>Date: November 23, 1994<br>Location: Freeman Coliseum, San Antonio, Texas<br>Overview: The Undertaker defeated Yokozuna in a Casket match. Bob Backlund defeated Bret Hart for the WWF Championship in a Submission match.<br>Attendance: 11000<br>PPV Buy Rate: 0.8</div>`)[0];
+            popup_04a038660f796a19c47e2ca88daf6775.setContent(html_af71b8a3af2e741dadf348d1d3039446);
+        
+
+        marker_12c5e2624006d8617a898c1e401acc12.bindPopup(popup_04a038660f796a19c47e2ca88daf6775)
+        ;
+
+        
+    
+    
+            var marker_b1ea5bb8fde21874c9496c24d1db32a9 = L.marker(
+                [28.0587, -82.4139],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_e976455f7e38f903919f1cf181ef739a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_358681e4fff0ffcb70b06674977d263d = $(`<div id="html_358681e4fff0ffcb70b06674977d263d" style="width: 100.0%; height: 100.0%;">Royal Rumble 1995<br>Date: January 22, 1995<br>Location: USF Sun Dome, Tampa, Florida<br>Overview: Shawn Michaels won the Royal Rumble match, entering at #1. Diesel successfully defended the WWF Championship against Bret Hart.<br>Attendance: 10000<br>PPV Buy Rate: 1.0</div>`)[0];
+            popup_e976455f7e38f903919f1cf181ef739a.setContent(html_358681e4fff0ffcb70b06674977d263d);
+        
+
+        marker_b1ea5bb8fde21874c9496c24d1db32a9.bindPopup(popup_e976455f7e38f903919f1cf181ef739a)
+        ;
+
+        
+    
+    
+            var marker_3ff931db795c8fbf0235f7f9f0863b9c = L.marker(
+                [41.7658, -72.6734],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_d83acd522636a7d9bd8cf2bc31522a70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1c364628e74f7ca306920ae9a570733 = $(`<div id="html_a1c364628e74f7ca306920ae9a570733" style="width: 100.0%; height: 100.0%;">WrestleMania XI<br>Date: April 2, 1995<br>Location: Hartford Civic Center, Hartford, Connecticut<br>Overview: Diesel successfully defended the WWF Championship against Shawn Michaels. Lawrence Taylor defeated Bam Bam Bigelow in the main event.<br>Attendance: 16305<br>PPV Buy Rate: 1.3</div>`)[0];
+            popup_d83acd522636a7d9bd8cf2bc31522a70.setContent(html_a1c364628e74f7ca306920ae9a570733);
+        
+
+        marker_3ff931db795c8fbf0235f7f9f0863b9c.bindPopup(popup_d83acd522636a7d9bd8cf2bc31522a70)
+        ;
+
+        
+    
+    
+            var marker_d840a21c577dfec6e115da616e09a800 = L.marker(
+                [43.0469, -76.1469],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_0fd0ba1ed7b8ace4b8261aafdfc9d1ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_812f5e017484d272aa77900f762866e3 = $(`<div id="html_812f5e017484d272aa77900f762866e3" style="width: 100.0%; height: 100.0%;">In Your House 1<br>Date: May 14, 1995<br>Location: Onondaga County War Memorial, Syracuse, New York<br>Overview: Diesel successfully defended the WWF Championship against Psycho Sid. Bret Hart defeated Hakushi in a notable match.<br>Attendance: 9000<br>PPV Buy Rate: 0.83</div>`)[0];
+            popup_0fd0ba1ed7b8ace4b8261aafdfc9d1ff.setContent(html_812f5e017484d272aa77900f762866e3);
+        
+
+        marker_d840a21c577dfec6e115da616e09a800.bindPopup(popup_0fd0ba1ed7b8ace4b8261aafdfc9d1ff)
+        ;
+
+        
+    
+    
+            var marker_5c472970607e266ee1b5991e51f51f0d = L.marker(
+                [39.9012, -75.172],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_7a6501846343f65b6e5f14d6f2f6eb7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf02110ef277f73be21a5faaf6fdda21 = $(`<div id="html_cf02110ef277f73be21a5faaf6fdda21" style="width: 100.0%; height: 100.0%;">King of the Ring 1995<br>Date: June 25, 1995<br>Location: CoreStates Spectrum, Philadelphia, Pennsylvania<br>Overview: Mabel won the King of the Ring tournament. Diesel successfully defended the WWF Championship against Sid.<br>Attendance: 15900<br>PPV Buy Rate: 0.5</div>`)[0];
+            popup_7a6501846343f65b6e5f14d6f2f6eb7a.setContent(html_cf02110ef277f73be21a5faaf6fdda21);
+        
+
+        marker_5c472970607e266ee1b5991e51f51f0d.bindPopup(popup_7a6501846343f65b6e5f14d6f2f6eb7a)
+        ;
+
+        
+    
+    
+            var marker_fcfc80376c9ee820fd94d4d2f263d234 = L.marker(
+                [36.1627, -86.7816],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_98e76b71ff61b5c68775451387923963 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b1bb922be7df635fe54e2265762de34 = $(`<div id="html_4b1bb922be7df635fe54e2265762de34" style="width: 100.0%; height: 100.0%;">In Your House 2<br>Date: July 23, 1995<br>Location: Nashville Municipal Auditorium, Nashville, Tennessee<br>Overview: Diesel successfully defended the WWF Championship against Sid in a Lumberjack match. Shawn Michaels defeated Jeff Jarrett for the Intercontinental Championship.<br>Attendance: 8000<br>PPV Buy Rate: 0.4</div>`)[0];
+            popup_98e76b71ff61b5c68775451387923963.setContent(html_4b1bb922be7df635fe54e2265762de34);
+        
+
+        marker_fcfc80376c9ee820fd94d4d2f263d234.bindPopup(popup_98e76b71ff61b5c68775451387923963)
+        ;
+
+        
+    
+    
+            var marker_7f97a7074ce4c875c0412348eda7cd11 = L.marker(
+                [40.4395, -79.9892],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_13f8c31b7e48c7ec8b341691fa3b1765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5969e45bfaf8aaeeb6fec0b5c6990be = $(`<div id="html_b5969e45bfaf8aaeeb6fec0b5c6990be" style="width: 100.0%; height: 100.0%;">SummerSlam 1995<br>Date: August 27, 1995<br>Location: Pittsburgh Civic Arena, Pittsburgh, Pennsylvania<br>Overview: Diesel successfully defended the WWF Championship against King Mabel. Shawn Michaels defeated Razor Ramon in a Ladder match for the Intercontinental Championship.<br>Attendance: 18500<br>PPV Buy Rate: 0.9</div>`)[0];
+            popup_13f8c31b7e48c7ec8b341691fa3b1765.setContent(html_b5969e45bfaf8aaeeb6fec0b5c6990be);
+        
+
+        marker_7f97a7074ce4c875c0412348eda7cd11.bindPopup(popup_13f8c31b7e48c7ec8b341691fa3b1765)
+        ;
+
+        
+    
+    
+            var marker_4c35b5e3e5687cafe70da2f53f33a3cf = L.marker(
+                [43.432, -83.9554],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_fe5544579d84d953cdb3b95bddcb324d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f28c336b90a32bd3584548070e398487 = $(`<div id="html_f28c336b90a32bd3584548070e398487" style="width: 100.0%; height: 100.0%;">In Your House 3<br>Date: September 24, 1995<br>Location: Saginaw Civic Center, Saginaw, Michigan<br>Overview: Diesel and Shawn Michaels defeated Yokozuna and British Bulldog. Bret Hart defeated Jean-Pierre Lafitte in a notable match.<br>Attendance: 5000<br>PPV Buy Rate: 0.4</div>`)[0];
+            popup_fe5544579d84d953cdb3b95bddcb324d.setContent(html_f28c336b90a32bd3584548070e398487);
+        
+
+        marker_4c35b5e3e5687cafe70da2f53f33a3cf.bindPopup(popup_fe5544579d84d953cdb3b95bddcb324d)
+        ;
+
+        
+    
+    
+            var marker_7467518e0c8172c1a966c624128a3668 = L.marker(
+                [49.8954, -97.1385],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_bcd64e58f49a5ebe1588f51b90cc3fa5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c37e6e5c4ce960b881f240554298a968 = $(`<div id="html_c37e6e5c4ce960b881f240554298a968" style="width: 100.0%; height: 100.0%;">In Your House 4<br>Date: October 22, 1995<br>Location: Winnipeg Arena, Winnipeg, Manitoba, Canada<br>Overview: Diesel successfully defended the WWF Championship against British Bulldog. Bret Hart defeated Jean-Pierre Lafitte in a rematch.<br>Attendance: 12000<br>PPV Buy Rate: 0.4</div>`)[0];
+            popup_bcd64e58f49a5ebe1588f51b90cc3fa5.setContent(html_c37e6e5c4ce960b881f240554298a968);
+        
+
+        marker_7467518e0c8172c1a966c624128a3668.bindPopup(popup_bcd64e58f49a5ebe1588f51b90cc3fa5)
+        ;
+
+        
+    
+    
+            var marker_e9bdfff320e859dd07a73817be554776 = L.marker(
+                [38.9072, -76.8569],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_f2d610bbc1590a6ac9ba665801bec54d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_958837cd07cb95f8eedd999335001f7d = $(`<div id="html_958837cd07cb95f8eedd999335001f7d" style="width: 100.0%; height: 100.0%;">Survivor Series 1995<br>Date: November 19, 1995<br>Location: USAir Arena, Landover, Maryland<br>Overview: Bret Hart defeated Diesel for the WWF Championship. The Undertaker defeated King Mabel in a Casket match.<br>Attendance: 18500<br>PPV Buy Rate: 0.57</div>`)[0];
+            popup_f2d610bbc1590a6ac9ba665801bec54d.setContent(html_958837cd07cb95f8eedd999335001f7d);
+        
+
+        marker_e9bdfff320e859dd07a73817be554776.bindPopup(popup_f2d610bbc1590a6ac9ba665801bec54d)
+        ;
+
+        
+    
+    
+            var marker_9e381f0f8d8602b9eb530cb6351ffc9b = L.marker(
+                [40.2873, -76.6503],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_303dec914e6f4ae28c25cad8e14cd196 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_968e6e1520fac884c8cdea833aed8b0b = $(`<div id="html_968e6e1520fac884c8cdea833aed8b0b" style="width: 100.0%; height: 100.0%;">In Your House 5<br>Date: December 17, 1995<br>Location: Hersheypark Arena, Hershey, Pennsylvania<br>Overview: Bret Hart successfully defended the WWF Championship against British Bulldog. Razor Ramon defeated Dean Douglas for the Intercontinental Championship.<br>Attendance: 6000<br>PPV Buy Rate: 0.5</div>`)[0];
+            popup_303dec914e6f4ae28c25cad8e14cd196.setContent(html_968e6e1520fac884c8cdea833aed8b0b);
+        
+
+        marker_9e381f0f8d8602b9eb530cb6351ffc9b.bindPopup(popup_303dec914e6f4ae28c25cad8e14cd196)
+        ;
+
+        
+    
+    
+            var marker_c89d0449a0bb6006cedf25e998f9acfb = L.marker(
+                [27.7676, -82.6403],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_c2840999dac853924619550246eaecdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3cc2cd233eb690e60216ae815223dfc = $(`<div id="html_e3cc2cd233eb690e60216ae815223dfc" style="width: 100.0%; height: 100.0%;">Clash of the Champions XXV<br>Date: November 16, 1993<br>Location: St. Petersburg Bayfront Arena, St. Petersburg, Florida<br>Overview: Ric Flair defeated Rick Rude for the WCW International World Heavyweight Championship. Vader defeated Davey Boy Smith in a notable match.<br>Attendance: 5200<br>PPV Buy Rate: N/A</div>`)[0];
+            popup_c2840999dac853924619550246eaecdb.setContent(html_e3cc2cd233eb690e60216ae815223dfc);
+        
+
+        marker_c89d0449a0bb6006cedf25e998f9acfb.bindPopup(popup_c2840999dac853924619550246eaecdb)
+        ;
+
+        
+    
+    
+            var marker_2fbcdfc8aa1399839e721f38f681b5c9 = L.marker(
+                [31.5785, -84.1557],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_9911f94d03041294bf15c12aa48659c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_960b9ddb04b48440f9d2fa35067cec65 = $(`<div id="html_960b9ddb04b48440f9d2fa35067cec65" style="width: 100.0%; height: 100.0%;">SuperBrawl IV<br>Date: February 20, 1994<br>Location: Albany Civic Center, Albany, Georgia<br>Overview: Ric Flair defeated Vader in a "Thundercage" match for the WCW World Heavyweight Championship. Sting defeated Rick Rude for the WCW International World Heavyweight Championship.<br>Attendance: 6000<br>PPV Buy Rate: 0.6</div>`)[0];
+            popup_9911f94d03041294bf15c12aa48659c2.setContent(html_960b9ddb04b48440f9d2fa35067cec65);
+        
+
+        marker_2fbcdfc8aa1399839e721f38f681b5c9.bindPopup(popup_9911f94d03041294bf15c12aa48659c2)
+        ;
+
+        
+    
+    
+            var marker_ba7e8d9672e3674031f9cc3a6daf28e3 = L.marker(
+                [41.9792, -87.8595],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_e2c8c3ccb664cd165d98550d062d4c7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_051a1ae5f46dc3a14191fbd7f391c995 = $(`<div id="html_051a1ae5f46dc3a14191fbd7f391c995" style="width: 100.0%; height: 100.0%;">Spring Stampede 1994<br>Date: April 17, 1994<br>Location: Rosemont Horizon, Rosemont, Illinois<br>Overview: Ric Flair defeated Ricky Steamboat to retain the WCW World Heavyweight Championship. Sting defeated Rick Rude in a rematch for the WCW International World Heavyweight Championship.<br>Attendance: 7000<br>PPV Buy Rate: 0.55</div>`)[0];
+            popup_e2c8c3ccb664cd165d98550d062d4c7a.setContent(html_051a1ae5f46dc3a14191fbd7f391c995);
+        
+
+        marker_ba7e8d9672e3674031f9cc3a6daf28e3.bindPopup(popup_e2c8c3ccb664cd165d98550d062d4c7a)
+        ;
+
+        
+    
+    
+            var marker_add6e46644706cf5bf2fd5ef47501a88 = L.marker(
+                [39.9483, -75.1712],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_427047f76675cff7060155dcb7294de9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf04429f6d2081ed375f37b85d2ab42e = $(`<div id="html_bf04429f6d2081ed375f37b85d2ab42e" style="width: 100.0%; height: 100.0%;">Slamboree 1994<br>Date: May 22, 1994<br>Location: Philadelphia Civic Center, Philadelphia, Pennsylvania<br>Overview: Sting defeated Vader for the WCW International World Heavyweight Championship. Steve Austin defeated Johnny B. Badd to retain the WCW United States Heavyweight Championship.<br>Attendance: 6000<br>PPV Buy Rate: 0.45</div>`)[0];
+            popup_427047f76675cff7060155dcb7294de9.setContent(html_bf04429f6d2081ed375f37b85d2ab42e);
+        
+
+        marker_add6e46644706cf5bf2fd5ef47501a88.bindPopup(popup_427047f76675cff7060155dcb7294de9)
+        ;
+
+        
+    
+    
+            var marker_57715da2bc258c569db15bb790b89eda = L.marker(
+                [28.5392, -81.3839],
+                {}
+            ).addTo(map_ce8fe1c54609afe3d7b4024c5b2f7ff0);
+        
+    
+        var popup_fbf5a042be90219dda0a56232c849857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ddda3ccc8918cae81cd0eaebd33aabc = $(`<div id="html_2ddda3ccc8918cae81cd0eaebd33aabc" style="width: 100.0%; height: 100.0%;">Bash at the Beach 1994<br>Date: July 17, 1994<br>Location: Orlando Arena, Orlando, Florida<br>Overview: Hulk Hogan defeated Ric Flair for the WCW World Heavyweight Championship in his WCW debut. Sting and Vader fought to a no-contest for the WCW International World Heavyweight Championship.<br>Attendance: 13000<br>PPV Buy Rate: 1.2</div>`)[0];
+            popup_fbf5a042be90219dda0a56232c849857.setContent(html_2ddda3ccc8918cae81cd0eaebd33aabc);
+        
+
+        marker_57715da2bc258c569db15bb790b89eda.bindPopup(popup_fbf5a042be90219dda0a56232c849857)
+        ;
+
+        
+    
+</script>
+</html>
